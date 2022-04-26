@@ -18,7 +18,7 @@
 
 /*
 * Unit
-* Haskell type() aka "unit" is a type with one value()
+* Haskell type () aka "unit" is a type with one value ()
 */ 
 using unit = std::tuple<>;
 std::ostream& operator<<(std::ostream& os, unit) { return os << "unit{}"; }
